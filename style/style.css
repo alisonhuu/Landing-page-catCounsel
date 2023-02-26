@@ -9753,9 +9753,13 @@ body {
   font-family: "Noto Sans TC", sans-serif;
 }
 
-.nav-item a:hover {
+.navbar .navbar-nav .nav-link:hover {
   background-color: #a4a8d1;
-  color: black;
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: #a4a8d1;
 }
 
 .header {

@@ -1,7 +1,10 @@
 body{
     font-family: 'Noto Sans TC', sans-serif;;
 }
-.nav-item a:hover{
+.navbar .navbar-nav .nav-link:hover{
     background-color: $primary;
-    color: black; //無法套用
+    color: white;
+}
+.navbar-nav .nav-link.active{
+    color: $primary;
 }
